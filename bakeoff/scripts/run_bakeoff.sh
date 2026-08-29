@@ -91,8 +91,6 @@ for path in sorted(root.rglob("*")):
         continue
     if rel == allowed_prefix or allowed_prefix in rel.parents or rel in allowed_exact:
         continue
-    if rel == Path("bakeoff/runs/authoring") or Path("bakeoff/runs/authoring") in rel.parents:
-        continue
     if "__pycache__" in rel.parts or path.suffix == ".pyc":
         continue
     kind = "L" if path.is_symlink() else "D" if path.is_dir() else "F"
