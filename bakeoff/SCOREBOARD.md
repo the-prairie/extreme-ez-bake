@@ -3,7 +3,13 @@
 ## Pinned environment
 
 <!-- versions:start -->
-_Not pinned yet. Run `./scripts/pin_versions.sh` before authoring._
+- Date: `2026-08-29T07:08:58Z`
+- Codex: `not installed`
+- Claude Code: `not installed`
+- Git commit: `478e9aecc7b42a4ab65701f5f6d4c96653ab0e60`
+- Python: `Python 3.13.5`
+- Frozen SPEC SHA-256: `6960bb511b69562acd4476288fe5c0438f6cee987e07180aff5be016d10f34c3`
+- Frozen evals SHA-256: `664c8f3f2614c82ec6584c0b4ce3db5ae1c5129b7633c9b15f105ff593aa2682`
 <!-- versions:end -->
 
 ## Results

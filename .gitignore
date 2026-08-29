@@ -1,0 +1,23 @@
+# Generated bakeoff run artifacts. Keep directory sentinels committed.
+bakeoff/runs/**
+!bakeoff/runs/
+!bakeoff/runs/**/
+!bakeoff/runs/**/.gitkeep
+
+# Author workspaces are ephemeral inputs to committed packs.
+bakeoff/authors/codex/skills/
+bakeoff/authors/codex/VALUE.md
+bakeoff/authors/codex/SKILL_MAP.md
+bakeoff/authors/fable/skills/
+bakeoff/authors/fable/VALUE.md
+bakeoff/authors/fable/SKILL_MAP.md
+
+# Keep bakeoff/packs/** committed once author snapshots exist.
+
+# Python and local tooling.
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
