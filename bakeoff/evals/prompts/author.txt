@@ -1,0 +1,3 @@
+Read the frozen authoring contract at ../../SPEC.md and implement exactly the three requested Agent Skills.
+
+Write only under ./skills, ./VALUE.md, and ./SKILL_MAP.md. Do not inspect or edit ../../evals. Do not inspect the other author directory. Stop when the three skills exist, required scripts run, and VALUE.md lists every file created with concrete validation numbers.

@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "prompts": [
+    {
+      "id": "profile-real-hotspot",
+      "kind": "trigger",
+      "prompt": "Profile this service, establish a repeatable baseline, and identify the real performance hotspot before anyone edits code.",
+      "expected_skill": "profiling-software-performance",
+      "keywords": [
+        "profile",
+        "baseline",
+        "hotspot",
+        "measure"
+      ]
+    },
+    {
+      "id": "profile-handoff-card",
+      "kind": "trigger",
+      "prompt": "The command is slow but the cause is unknown. Measure the workload and hand the next agent a hotspot card with evidence.",
+      "expected_skill": "profiling-software-performance",
+      "keywords": [
+        "measure",
+        "workload",
+        "hotspot",
+        "handoff"
+      ]
+    },
+    {
+      "id": "one-isomorphic-rewrite",
+      "kind": "trigger",
+      "prompt": "Use the supplied hotspot card to apply one isomorphic optimization rewrite, verify outputs, and benchmark the delta.",
+      "expected_skill": "extreme-software-optimization",
+      "keywords": [
+        "hotspot",
+        "isomorphic",
+        "rewrite",
+        "verify",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "one-lever-allocation",
+      "kind": "trigger",
+      "prompt": "The hotspot card proves allocation churn in the hot loop. Select one optimization lever, preserve behavior, and keep it only if p50 improves.",
+      "expected_skill": "extreme-software-optimization",
+      "keywords": [
+        "hotspot",
+        "optimization",
+        "rewrite",
+        "isomorphic"
+      ]
+    },
+    {
+      "id": "repeat-three-passes",
+      "kind": "trigger",
+      "prompt": "Run three measured optimization passes, recording each KEEP, REVERT, or STOP decision in a pass ledger.",
+      "expected_skill": "repeatedly-apply-skill",
+      "keywords": [
+        "repeat",
+        "passes",
+        "ledger",
+        "keep",
+        "revert",
+        "stop"
+      ]
+    },
+    {
+      "id": "repeat-until-stop",
+      "kind": "trigger",
+      "prompt": "Repeatedly apply the appropriate performance skill until the requested pass count is complete or the ledger contains a justified stop.",
+      "expected_skill": "repeatedly-apply-skill",
+      "keywords": [
+        "repeatedly",
+        "pass",
+        "ledger",
+        "stop",
+        "controller"
+      ]
+    },
+    {
+      "id": "nontrigger-failing-test",
+      "kind": "non-trigger",
+      "prompt": "Fix the failing parser unit test and explain the correctness bug. Performance is not part of this task.",
+      "expected_skill": null,
+      "keywords": [
+        "unit",
+        "test",
+        "correctness",
+        "bug"
+      ]
+    },
+    {
+      "id": "nontrigger-general-explanation",
+      "kind": "non-trigger",
+      "prompt": "Explain Big-O notation to a new engineer and recommend a few practice exercises.",
+      "expected_skill": null,
+      "keywords": [
+        "explain",
+        "notation",
+        "practice",
+        "education"
+      ]
+    }
+  ]
+}
