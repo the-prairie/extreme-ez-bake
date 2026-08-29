@@ -1,0 +1,10 @@
+hyphenation:2,6,9
+optimization:2,4,6,8,10
+microservice:2,5,8
+algorithm:2,4
+lookuptable:4,6,8
+precompute:3,5,6
+bufferpresize:3,6,9
+zerocopy:2,4,6,7
+profiling:3,6
+branchless:6

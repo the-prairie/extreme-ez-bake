@@ -1,0 +1,3 @@
+Optimize this project for performance without changing outputs.
+Use installed skills if they apply.
+Stop when tests pass and you have before/after p50 numbers.
